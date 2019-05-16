@@ -1,0 +1,13 @@
+dn: uid=anan,{{ LDAP_BASE_DN }}
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Anders Andersson
+sn: Andersson
+displayName: Anders Andersson
+employeeType: teacher
+givenName: Anders
+mail: anan@skolan.kommunen.se
+ou: ou=skolenhet1,ou=skolgruppen,{{ LDAP_BASE_DN }}
+uid: anan

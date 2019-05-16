@@ -1,0 +1,8 @@
+dn: cn=grupp1,{{ LDAP_BASE_DN }}
+objectClass: groupOfNames
+objectClass: top
+cn: grupp1
+member: uid=baje,{{ LDAP_BASE_DN }}
+member: uid=lini,{{ LDAP_BASE_DN }}
+member: uid=pejo,{{ LDAP_BASE_DN }}
+owner: ou=skolenhet1,ou=skolgruppen,{{ LDAP_BASE_DN }}

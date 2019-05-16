@@ -1,0 +1,13 @@
+dn: uid=lini,{{ LDAP_BASE_DN }}
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Lisa Nilsson
+sn: Nilsson
+displayName: Lisa Nilsson
+employeeType: student
+givenName: Lisa
+mail: lini@skolan.kommunen.se
+ou: ou=skolenhet1,ou=skolgruppen,{{ LDAP_BASE_DN }}
+uid: lini

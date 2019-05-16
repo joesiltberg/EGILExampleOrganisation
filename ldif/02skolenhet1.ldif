@@ -1,0 +1,6 @@
+dn: ou=skolenhet1,ou=skolgruppen,{{ LDAP_BASE_DN }}
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+ou: skolenhet1
+uniqueIdentifier: 12345678

@@ -1,0 +1,13 @@
+dn: uid=pejo,{{ LDAP_BASE_DN }}
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Per Johansson
+sn: Johansson
+displayName: Per Johansson
+employeeType: student
+givenName: Per
+mail: pejo@skolan.kommunen.se
+ou: ou=skolenhet1,ou=skolgruppen,{{ LDAP_BASE_DN }}
+uid: pejo

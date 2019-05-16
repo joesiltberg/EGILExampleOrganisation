@@ -1,0 +1,4 @@
+dn: ou=skolgruppen,{{ LDAP_BASE_DN }}
+objectClass: organizationalUnit
+objectClass: top
+ou: skolgruppen

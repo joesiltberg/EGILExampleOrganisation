@@ -1,0 +1,14 @@
+dn: uid=baje,{{ LDAP_BASE_DN }}
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Babs Jensen
+sn: Jensen
+displayName: Babs Jensen
+employeeType: teacher
+givenName: Barbara
+mail: baje@skolan.kommunen.se
+ou: ou=skolenhet1,ou=skolgruppen,{{ LDAP_BASE_DN }}
+ou: ou=skolenhet2,ou=skolgruppen,{{ LDAP_BASE_DN }}
+uid: baje
